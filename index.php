@@ -52,7 +52,16 @@ $faqs = [
 </head>
 
 <body>
-    <header></header>
+    <header>
+        <img src="google.svg" alt="logo google">
+        <ul>
+            <li>Introduzione</li>
+            <li>Norme sulla privacy</li>
+            <li>Termini di servizio</li>
+            <li>Tecnologie</li>
+            <li>Domande frequenti</li>
+        </ul>
+    </header>
     <main>
         <div class="container">
             <?php foreach ($faqs as $faq) { ?>
